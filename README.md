@@ -1,16 +1,36 @@
-# pr4_appmania
+# Recipe App
 
-A new Flutter project.
+## Project Description
 
-## Getting Started
+The Recipe App is a mobile application designed for users to explore, manage, and save recipes efficiently. It provides a smooth user experience with features such as filtering recipes, navigating between pages, adding recipes to meals, increasing meal quantities, and more.
 
-This project is a starting point for a Flutter application.
+## Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Recipe Categories:** Browse recipes organized by categories like breakfast, lunch, dinner, and dessert.
+- **Recipe Filtering:** Filter recipes by meal type, cooking time, or other criteria using a dropdown button.
+- **Detailed Recipe Page:** View full recipe details, including ingredients, cooking steps, and timing.
+- **Favorites Section:** Mark and store your favorite recipes for quick access.
+- **Add to Meal Plan:** Include recipes in your meal plan with adjustable portions.
+- **Increase Meal Quantity:** Increase the number of servings for recipes in the meal plan.
+- **User Authentication:** Create and log into an account to save preferences.
+- **Search Recipes:** Quickly find recipes using the search functionality.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: Cross-platform framework for building the app interface and functionality.
+- **Dart**: Programming language to implement the app’s logic and backend communication.
+- **Firebase**: User authentication and recipe data storage.
+- **SQLite**: Local storage for saving recipes and meal plans offline.
+
+## User Flow
+
+1. **Onboarding/Login**: Users log in or create an account to access and manage their recipes and meal plans.
+2. **Home Screen**: Displays categorized recipes with the option to filter using a dropdown.
+3. **Recipe Detail**: Shows complete recipe details including ingredients, steps, and an option to add to meal plans.
+4. **Favorites Page**: Users can save favorite recipes for easy access.
+5. **Add to Meal Plan**: Adds recipes to meal plans and allows adjusting portion size.
+
+## Code Structure
+
+Here’s a basic folder structure for the Flutter project:
+
